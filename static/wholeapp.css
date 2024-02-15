@@ -1,0 +1,14 @@
+.nowrapping {
+	white-space: nowrap;
+}
+
+.main_table tr:nth-child(odd) td{
+    background-color:#D6EEEE;
+}
+.main_table tr:nth-child(even) td{
+    background-color:#FFFFFF;
+}
+
+.data_table td{
+	background-color:#FFFFFF !important;
+}
