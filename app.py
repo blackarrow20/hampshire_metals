@@ -30,9 +30,9 @@ def handleRequestAll():
 	try:
 		if request.method == "POST":
 			data = request.get_json()
-                        output_fields["pdf"] = "pdfBytes"
+			output_fields["pdf"] = "pdfBytes"
 			output_fields["image"] = "imageBytes"
-				
+			
 			output = {
 				"error_msg": "",
 				"success_msg": "OK",
