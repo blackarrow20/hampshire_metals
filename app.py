@@ -39,19 +39,19 @@ def handleRequestAll():
 			writer.add_page(page)
 
 			field_values = [""] * 13
-			field_values[0] = "0 " + data["reference"]
-			field_values[1] = "1 " + data["first_name"]
-			field_values[2] = "2 " + data["house_number_street_name"]
-			field_values[3] = "3 " + data["email"]
-			field_values[4] = "4 " + data["phone_number"]
-			field_values[5] = "5 " + data["post_code"]
-			field_values[6] = "6 " + data["last_name"]
-			field_values[7] = "7 " + data["date"]
-			field_values[8] = "8 " + data["account_number"]
-			field_values[9] = "9 " + data["account_name"]
-			field_values[10] = "10 " + data["bank_name"]
-			field_values[11] = "11 " + data["sort_code"]
-			field_values[12] = "12 " + data["scrap_msg"]			
+			field_values[0] = data["reference"]
+			field_values[1] = data["first_name"]
+			field_values[2] = data["house_number_street_name"]
+			field_values[3] = data["email"]
+			field_values[4] = data["account_number"]
+			field_values[5] = data["account_name"]
+			field_values[6] = data["bank_name"]
+			field_values[7] = data["sort_code"]
+			field_values[8] = data["scrap_msg"]
+			field_values[9] = data["phone_number"]
+			field_values[10] = data["post_code"]
+			field_values[11] = data["last_name"]
+			field_values[12] = data["date"]		
 
 			output_fields = {				
 				"pdf": "",
